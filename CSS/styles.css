@@ -27,7 +27,6 @@ body {
 }
 
 .logo {
-  font-style: 400;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -46,7 +45,6 @@ body {
 
 .logo-Web {
   font-family: var(--secondary-font);
-  font-style: 400;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
