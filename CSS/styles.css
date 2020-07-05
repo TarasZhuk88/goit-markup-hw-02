@@ -1,3 +1,6 @@
+:root {
+}
+
 body {
   background-color: #ffffff;
   font-family: "Raleway", sans-serif;
@@ -18,8 +21,17 @@ body {
 }
 
 .logo {
-  font-style: normal;
-  font-weight: bold;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.header-logo-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -27,19 +39,20 @@ body {
 }
 
 .logo-Web {
-  font-style: normal;
-  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  font-style: 400;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
   color: #2196f3;
 }
-.logo:hover,
-.logo:focus {
+.header-logo-link:hover,
+.header-logo-link:focus {
   color: #2196f3;
 }
-
+/*Шапка: Логотип, навігація, контакт email, тел*/
+/*адреса контакт email, тел*/
 .navigation-list-item-link,
 .header-address-list-mail-link,
 .header-address-list-tel-link {
@@ -71,7 +84,9 @@ body {
 .header-address-list-tel-link:focus {
   color: #2196f3;
 }
-
+/*<!--main 5 секцій:заголовок і кнопка,Особенности 
+Чем мы занимаемся Наша команда Постоянные клиенты-->*/
+/*заголовок і кнопка*/
 .main-title {
   font-weight: 900;
   font-size: 44px;
@@ -79,11 +94,12 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: cornsilk;
+  color: #ffffff;
+  background: #e5e5e5;
 }
 
 .main-button {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
@@ -91,6 +107,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  background: #2196f3;
 }
 
 .main-button:hover {
@@ -100,8 +117,9 @@ body {
   color: #2196f3;
 }
 
+/*Особенности*/
 .Section-advantag-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -110,14 +128,16 @@ body {
 }
 
 .Section-advantage-deskription {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
+
+/*Чем мы занимаемся*/
 .section-projects-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -125,17 +145,19 @@ body {
   color: #212121;
 }
 .section-projects-list-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f3e9e9e5;
+  color: #ffffff;
+  background: rgba(47, 48, 58, 0.8);
 }
 
+/*Наша команда*/
 .section-team-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -152,7 +174,7 @@ body {
   color: #212121;
 }
 .section-team-manager-profession {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -161,41 +183,107 @@ body {
 }
 .section-team-manager-social-links-list .a {
 }
+
+/*Постоянные клиенты*/
 .section-client-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
-.section-client-social-links-list {
+
+/*Footer: Лого, Адреса, Приєднуйтесь, Підписуйтесь*/
+.footer {
+  background: #2f303a;
 }
+.footer-logo-link {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.logo-Web:hover,
+.footer-logo-link:hover,
+.logo-Web:focus,
+.footer-logo-link:focus {
+  color: #2196f3;
+}
+
 .footer-address-list-map {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #d1cbcb93;
+  color: #ffffff;
 }
+/* ЧОМУ при hower ТУТ НЕ ПРАЦЮЄ ?. чому воно його взагалі перескакує*/
+.footer-address-list-map:focus,
+.footer-address-list-map:hover {
+  color: #2196f3;
+}
+
 .footer-address-list-mail,
 .footer-address-list-tel {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #d1cbcb93;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-address-list-mail:focus,
+.footer-address-list-mail:hover,
+.footer-address-list-tel:focus,
+.footer-address-list-tel:hover {
+  color: #2196f3;
 }
 
-.footer-actions-title {
-  font-weight: bold;
+.footer-actions {
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #d1cbcb93;
+  color: #ffffff;
 }
-.footer-actions-social-links {
+
+.footer-actions:focus,
+.footer-actions:hover {
+  color: #2196f3;
 }
+
 .footer-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.footer-button:hover,
+.footer-button:focus {
+  color: #2196f3;
+}
+
+.footer-actions-input-text-emaile {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  background: #2f303a;
+}
+.footer-actions-input-text-emaile:hover,
+.footer-actions-input-text-emaile:focus {
+  color: #2196f3;
 }
