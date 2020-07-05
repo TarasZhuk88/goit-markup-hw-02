@@ -1,12 +1,17 @@
 :root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --title-dark-theme-color: #ffffff;
+  --title-light-theme-color: #212121;
+  --accent-color: #2196f3;
+  --text-light-theme-color: #757575;
 }
 
 body {
   background-color: #ffffff;
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-size: 14px;
-  color: #757575;
+  color: var(--text-light-theme-color);
 }
 /*a {
   text-decoration-line: none;
@@ -45,11 +50,11 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .header-logo-link:hover,
 .header-logo-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /*Шапка: Логотип, навігація, контакт email, тел*/
 /*адреса контакт email, тел*/
@@ -60,17 +65,17 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--title-light-theme-color);
 }
 
 .navigation-list-item-link:hover,
 .navigation-list-item-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .header-address-list-mail-link,
 .header-address-list-tel-link {
-  color: #757575;
+  color: var(--text-light-theme-color);
 }
 
 /* НЕ ВІДОМО ЧОМУ ПРИ Hover ts Focus
@@ -78,11 +83,11 @@ body {
   зробив як є но мило чомусь стало постійно синім?????*/
 .header-address-list-mail-link,
 .header-address-list-tel-link:hover {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .header-address-list-mail-link,
 .header-address-list-tel-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /*<!--main 5 секцій:заголовок і кнопка,Особенности 
 Чем мы занимаемся Наша команда Постоянные клиенты-->*/
@@ -94,7 +99,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--title-dark-theme-color);
   background: #e5e5e5;
 }
 
@@ -106,15 +111,13 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background: #2196f3;
+  color: var(--title-dark-theme-color);
+  background: var(--accent-color);
 }
 
-.main-button:hover {
-  color: #2196f3;
-}
+.main-button:hover,
 .main-button:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /*Особенности*/
@@ -124,7 +127,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--title-light-theme-color);
 }
 
 .Section-advantage-deskription {
@@ -132,7 +135,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-light-theme-color);
 }
 
 /*Чем мы занимаемся*/
@@ -142,7 +145,7 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-light-theme-color);
 }
 .section-projects-list-title {
   font-weight: 700;
@@ -151,7 +154,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--title-dark-theme-color);
   background: rgba(47, 48, 58, 0.8);
 }
 
@@ -162,7 +165,7 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-light-theme-color);
 }
 .section-team-manager-list-name {
   font-weight: 500;
@@ -171,7 +174,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--title-light-theme-color);
 }
 .section-team-manager-profession {
   font-weight: 400;
@@ -179,9 +182,16 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-light-theme-color);
 }
-.section-team-manager-social-links-list .a {
+
+/*Іконки соціальних мереж менеджерів*/
+.section-team-manager-social-links-list-icon {
+}
+
+.section-team-manager-social-links-list-icon:hover,
+.section-team-manager-social-links-list-icon:focus {
+  color: var(--accent-color);
 }
 
 /*Постоянные клиенты*/
@@ -191,7 +201,11 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-light-theme-color);
+}
+
+/*іконки постійних клієнтів*/
+.section-client-social-links-list {
 }
 
 /*Footer: Лого, Адреса, Приєднуйтесь, Підписуйтесь*/
@@ -209,7 +223,7 @@ body {
 .footer-logo-link:hover,
 .logo-Web:focus,
 .footer-logo-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .footer-address-list-map {
@@ -217,12 +231,12 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--title-dark-theme-color);
 }
-/* ЧОМУ при hower ТУТ НЕ ПРАЦЮЄ ?. чому воно його взагалі перескакує*/
+/* ЧОМУ при fokus ТУТ НЕ ПРАЦЮЄ ?. чому воно його взагалі перескакує*/
 .footer-address-list-map:focus,
 .footer-address-list-map:hover {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .footer-address-list-mail,
@@ -237,7 +251,7 @@ body {
 .footer-address-list-mail:hover,
 .footer-address-list-tel:focus,
 .footer-address-list-tel:hover {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .footer-actions {
@@ -246,12 +260,16 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--title-dark-theme-color);
 }
 
 .footer-actions:focus,
 .footer-actions:hover {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+
+/* footer Іконки соціальних мереж*/
+.footer-actions-social-links-list-item {
 }
 
 .footer-button {
@@ -262,7 +280,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--title-dark-theme-color);
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -270,13 +288,13 @@ body {
 
 .footer-button:hover,
 .footer-button:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .footer-actions-input-text-emaile {
   font-weight: 400;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.25;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -285,5 +303,5 @@ body {
 }
 .footer-actions-input-text-emaile:hover,
 .footer-actions-input-text-emaile:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
