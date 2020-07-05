@@ -5,3 +5,9 @@
 <batom>Приложения</batom>
 <batom>Дизайн</batom>
 <batom>Маркетинг</batom>
+
+Raleway Bold
+Roboto Medium
+Roboto Regular
+Roboto Bold
+Roboto Black

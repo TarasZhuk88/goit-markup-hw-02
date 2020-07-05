@@ -1,0 +1,201 @@
+body {
+  background-color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #757575;
+}
+/*a {
+  text-decoration-line: none;
+}*/
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.logo-Web {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+.logo:hover,
+.logo:focus {
+  color: #2196f3;
+}
+
+.navigation-list-item-link,
+.header-address-list-mail-link,
+.header-address-list-tel-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.navigation-list-item-link:hover,
+.navigation-list-item-link:focus {
+  color: #2196f3;
+}
+
+.header-address-list-mail-link,
+.header-address-list-tel-link {
+  color: #757575;
+}
+
+/* НЕ ВІДОМО ЧОМУ ПРИ Hover ts Focus
+ Конфліктують кольори сиилок списку та адреси,
+  зробив як є но мило чомусь стало постійно синім?????*/
+.header-address-list-mail-link,
+.header-address-list-tel-link:hover {
+  color: #2196f3;
+}
+.header-address-list-mail-link,
+.header-address-list-tel-link:focus {
+  color: #2196f3;
+}
+
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: cornsilk;
+}
+
+.main-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.main-button:hover {
+  color: #2196f3;
+}
+.main-button:focus {
+  color: #2196f3;
+}
+
+.Section-advantag-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.Section-advantage-deskription {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.section-projects-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.section-projects-list-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f3e9e9e5;
+}
+
+.section-team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.section-team-manager-list-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.section-team-manager-profession {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.section-team-manager-social-links-list .a {
+}
+.section-client-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.section-client-social-links-list {
+}
+.footer-address-list-map {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #d1cbcb93;
+}
+.footer-address-list-mail,
+.footer-address-list-tel {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #d1cbcb93;
+}
+
+.footer-actions-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #d1cbcb93;
+}
+.footer-actions-social-links {
+}
+.footer-button {
+}
