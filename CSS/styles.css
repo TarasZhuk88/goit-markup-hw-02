@@ -222,8 +222,16 @@ body {
   color: var(--title-dark-theme-color);
 }
 /* ЧОМУ при fokus ТУТ НЕ ПРАЦЮЄ ?. чому воно його взагалі перескакує*/
-.footer-address-list-map:focus,
-.footer-address-list-map:hover {
+
+a.footer-address-list-map:link {
+  color: #212121;
+}
+
+a.footer-address-list-map:visited {
+  color: #212121;
+}
+a.footer-address-list-map:hover,
+a.footer-address-list-map:focus {
   color: var(--accent-color);
 }
 
