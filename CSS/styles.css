@@ -14,9 +14,6 @@ body {
   font-size: 14px;
   color: var(--text-light-theme-color);
 }
-/*a {
-  text-decoration-line: none;
-}*/
 
 .link {
   text-decoration: none;
@@ -33,8 +30,8 @@ body {
   letter-spacing: 0.03em;
   color: #000000;
 }
-
-.header-logo-link {
+/*опис лого*/
+.header-logo {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -43,63 +40,161 @@ body {
   color: #000000;
 }
 
-.logo-Web {
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+.logo-web {
+  color: #2196f3;
+}
+
+.header-logo:hover,
+.header-logo:focus {
   color: var(--accent-color);
 }
-.header-logo-link:hover,
-.header-logo-link:focus {
-  color: var(--accent-color);
-}
-/*Шапка: Логотип, навігація, контакт email, тел*/
-/*адреса контакт email, тел*/
-.navigation-list-item-link,
-.header-address-list-mail-link,
-.header-address-list-tel-link {
+
+.navigation-list-link,
+.address-tel,
+.address-emaile {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--title-light-theme-color);
+  color: #212121;
 }
 
-.navigation-list-item-link:hover,
-.navigation-list-item-link:focus {
+/*.navigation-list-link:hover,
+.navigation-list-link:focus {
+  color: var(--accent-color);
+}*/
+
+.address-tel,
+.address-emaile {
+  color: #757575;
+}
+/*HOVER&FOCUS*/
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.address-tel:hover,
+.address-tel:focus,
+.address-emaile:hover,
+.address-emaile:focus {
   color: var(--accent-color);
 }
 
-.header-address-list-mail-link,
-.header-address-list-tel-link {
-  color: var(--text-light-theme-color);
-}
+/*Заголовок опиши */
 
-.header-address-list-mail-link:hover,
-.header-address-list-tel-link:hover {
-  color: var(--accent-color);
-}
-.header-address-list-mail-link:focus,
-.header-address-list-tel-link:focus {
-  color: var(--accent-color);
-}
-/*<!--main 5 секцій:заголовок і кнопка,Особенности 
-Чем мы занимаемся Наша команда Постоянные клиенты-->*/
-/*заголовок і кнопка*/
-.main-title {
+.maine-taitle {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--title-dark-theme-color);
-  background: var(--btn-background-portfolio);
+  color: #212121; /*var(--title-dark-theme-color); НЕ ЗАБУТЬ!!!! забрати чорний колір і  ПОСТАВИТИ ЦЮ ТЕМУ ПІСЛЯ СТВОРЕННЯ ТЕМНОГО BEGGRAUND */
 }
 
-.modal-btn {
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1, 88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #212121; /*var(--title-dark-theme-color); НЕ ЗАБУТЬ!!!! забрати чорний колір і  ПОСТАВИТИ ЦЮ ТЕМУ ПІСЛЯ СТВОРЕННЯ ТЕМНОГО BEGGRAUND */
+}
+
+.button:hover,
+.button:focus {
+  color: var(--accent-color);
+}
+/*Наші Стандарти+Чем мы занимаемся*/
+.satandards-items {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-light-theme-color);
+}
+/*описує */
+.text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-light-theme-color);
+}
+.projects > second-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.second-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-light-theme-color);
+}
+
+/*Чем мы занимаемся*/
+.projects .satandards-items {
+  text-align: center;
+  text-transform: uppercase;
+  color: #212121; /*var(--title-dark-theme-color); НЕ ЗАБУТЬ!!!! забрати чорний колір і  ПОСТАВИТИ ЦЮ ТЕМУ ПІСЛЯ СТВОРЕННЯ ТЕМНОГО BEGGRAUND */
+}
+
+/*Наша Команда*/
+.manager-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-light-theme-color);
+}
+
+.profesion {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-light-theme-color);
+}
+
+/*Footer*/
+
+.footer .logo-Web {
+  color: #2196f3;
+}
+.footer .logo {
+  font-family: var(--secondary-font);
+  /*color: #ffffff;*/
+  color: black;
+}
+
+.footer .logo:hover,
+.footer .logo:focus {
+  color: var(--accent-color);
+}
+
+/*зіклик до дії (присоединяйтесь, Подпишитесь на рассылку ) */
+.action {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121; /*var(--title-dark-theme-color); НЕ ЗАБУТЬ!!!! забрати чорний колір і  ПОСТАВИТИ ЦЮ ТЕМУ ПІСЛЯ СТВОРЕННЯ ТЕМНОГО BEGGRAUND */
+}
+
+.action:hover,
+.action:focus {
+  color: var(--accent-color);
+}
+
+.footer .button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -107,256 +202,10 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--title-dark-theme-color);
-  background: var(--accent-color);
-}
-
-.modal-btn:hover,
-.modal-btn:focus {
-  color: var(--accent-color);
-}
-
-/*Особенности*/
-.Section-advantag-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--title-light-theme-color);
-}
-
-.Section-advantage-deskription {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--text-light-theme-color);
-}
-
-/*Чем мы занимаемся*/
-.section-projects-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-light-theme-color);
-}
-.section-projects-list-title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-align: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--title-dark-theme-color);
-  background: rgba(47, 48, 58, 0.8);
-}
-
-/*Наша команда*/
-.section-team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-light-theme-color);
-}
-.section-team-manager-list-name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: var(--title-light-theme-color);
-}
-.section-team-manager-profession {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--text-light-theme-color);
-}
-
-/*Іконки соціальних мереж менеджерів*/
-
-/*Постоянные клиенты*/
-.section-client-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-light-theme-color);
-}
-
-/*іконки постійних клієнтів*/
-
-/*Footer: Лого, Адреса, Приєднуйтесь, Підписуйтесь*/
-.footer {
-  background: #2f303a;
-}
-.footer-logo-link {
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
   color: #ffffff;
 }
-.logo-Web:hover,
-.footer-logo-link:hover,
-.logo-Web:focus,
-.footer-logo-link:focus {
-  color: var(--accent-color);
-}
 
-.footer-address-list-map {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--title-dark-theme-color);
-}
-/* ЧОМУ при fokus ТУТ НЕ ПРАЦЮЄ ?. чому воно його взагалі перескакує*/
-
-a.footer-address-list-map:link {
-  color: #212121;
-}
-
-a.footer-address-list-map:visited {
-  color: #212121;
-}
-a.footer-address-list-map:hover,
-a.footer-address-list-map:focus {
-  color: var(--accent-color);
-}
-
-.footer-address-list-mail,
-.footer-address-list-tel {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-.footer-address-list-mail:focus,
-.footer-address-list-mail:hover,
-.footer-address-list-tel:focus,
-.footer-address-list-tel:hover {
-  color: var(--accent-color);
-}
-
-.footer-actions {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--title-dark-theme-color);
-}
-
-.footer-actions:focus,
-.footer-actions:hover {
-  color: var(--accent-color);
-}
-
-/* footer Іконки соціальних мереж*/
-.footer-actions-social-links-list-item {
-}
-
-.footer-button {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: var(--title-dark-theme-color);
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}
-
-.footer-button:hover,
-.footer-button:focus {
-  color: var(--accent-color);
-}
-
-.footer-actions-input-text-emaile {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-  background: #2f303a;
-}
-.footer-actions-input-text-emaile:hover,
-.footer-actions-input-text-emaile:focus {
-  color: var(--accent-color);
-}
-
-/*Портфлоліо*/
-
-/*button*/
-.portfolio-btn-list .portfolio-modal-btn {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: var(--title-dark-theme-color);
-}
-.portfolio-btn {
-  background: #f5f4fa;
-}
-.portfolio-list-projects:hover,
-.portfolio-list-projects:focus {
-  color: var(--accent-color);
-}
-
-/*portfolio-link link*/
-
-/*Portfolio-title*/
-.Portfolio-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--title-light-theme-color);
-}
-.Portfolio-title:hover,
-.Portfolio-title:focus {
-  color: var(--accent-color);
-}
-
-.portfolio-deskription {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.03em;
-  color: var(--text-light-theme-color);
-}
-.portfolio-deskription:hover,
-.portfolio-deskription:focus {
-  color: var(--accent-color);
-}
-.portolio-text {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.56;
-  letter-spacing: 0.03em;
-  color: var(--title-dark-theme-color);
-}
-
-.portfolio-img:focus,
-.portfolio-img:hover {
+.footer .button:hover,
+.footer .button:focus {
   color: var(--accent-color);
 }
