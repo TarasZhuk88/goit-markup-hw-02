@@ -60,6 +60,10 @@ body {
   color: #212121;
 }
 
+.active {
+  color: var(--accent-color);
+}
+
 /*.navigation-list-link:hover,
 .navigation-list-link:focus {
   color: var(--accent-color);
