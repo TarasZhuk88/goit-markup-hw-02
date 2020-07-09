@@ -102,6 +102,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
   display: flex;
+  border: none;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -223,6 +224,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
   display: flex;
+  border: none;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
@@ -242,6 +244,7 @@ body {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
+  border: none;
   color: var(--title-light-theme-color);
 }
 
