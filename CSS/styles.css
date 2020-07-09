@@ -54,7 +54,7 @@ body {
 .address-emaile {
   font-weight: 500;
   font-size: 14px;
-  Font-style: normal;
+  font-style: normal;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
@@ -104,12 +104,13 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--title-dark-theme-color); 
+  color: var(--title-dark-theme-color);
+  background: #2196f3;
 }
 
 .button:hover,
 .button:focus {
-  background-color : var(--accent-color);
+  background-color: var(--accent-color);
 }
 /*Наші Стандарти+Чем мы занимаемся*/
 .satandards-items {
@@ -186,20 +187,20 @@ body {
 
 /*Адреса місця знаходження*/
 .footer-adres {
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-/*color: var(--title-dark-theme-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  /*color: var(--title-dark-theme-color);
 }*/
-color: var(--title-light-theme-color)
+  color: var(--title-light-theme-color);
 }
 
 .footer-adres:hover,
-.footer-adres:focus {color: var(--accent-color);}
-
-
+.footer-adres:focus {
+  color: var(--accent-color);
+}
 
 /*заклик до дії (присоединяйтесь, Подпишитесь на рассылку ) */
 .action {
@@ -229,7 +230,7 @@ color: var(--title-light-theme-color)
 
 .footer .button:hover,
 .footer .button:focus {
- background-color : var(--accent-color);
+  background-color: var(--accent-color);
 }
 
 /*Portfolio*/
@@ -244,7 +245,7 @@ color: var(--title-light-theme-color)
 
 .button-portfolio:hover,
 .button-portfolio:focus {
- background-color : var(--accent-color);
+  background-color: var(--accent-color);
 }
 
 .portfolio-list-title {
@@ -256,18 +257,20 @@ color: var(--title-light-theme-color)
 }
 
 .portfolio-text {
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-/* identical to box height, or 187% */
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: #757575;}
+  color: #757575;
+}
 
 .portfolio-item .text {
-font-size: 18px;
-line-height: 1.56;
-letter-spacing: 0.03em;
-/*color:var(--title-dark-theme-color);}*/
-color: rgb(12, 12, 12);
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  /*color:var(--title-dark-theme-color);}*/
+  color: rgb(12, 12, 12);
+}
