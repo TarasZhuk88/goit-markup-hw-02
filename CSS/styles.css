@@ -4,6 +4,7 @@
   --title-dark-theme-color: #ffffff;
   --title-light-theme-color: #212121;
   --accent-color: #2196f3;
+  --accent-color-button: #7ec0f7;
   --text-light-theme-color: #757575;
   --btn-background-portfolio: #f5f4fa;
 }
@@ -105,12 +106,12 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--title-dark-theme-color);
-  background: #2196f3;
+  background: var(--accent-color);
 }
 
 .button:hover,
 .button:focus {
-  background-color: var(--accent-color);
+  background-color: var(--accent-color-button);
 }
 /*Наші Стандарти+Чем мы занимаемся*/
 .satandards-items {
@@ -225,12 +226,13 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--title-dark-theme-color);
+  background: var(--accent-color);
 }
 
 .footer .button:hover,
 .footer .button:focus {
-  background-color: var(--accent-color);
+  background-color: var(--accent-color-button);
 }
 
 /*Portfolio*/
@@ -240,11 +242,12 @@ body {
   line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-dark-theme-color);
+  color: var(--title-light-theme-color);
 }
 
 .button-portfolio:hover,
 .button-portfolio:focus {
+  color: var(--title-dark-theme-color);
   background-color: var(--accent-color);
 }
 
