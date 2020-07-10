@@ -9,6 +9,16 @@
   --btn-background-portfolio: #f5f4fa;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   background-color: #ffffff;
   font-family: var(--main-font);
